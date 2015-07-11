@@ -2,7 +2,7 @@ import unittest
 import destination_quiz_database_manager
 
 
-class DestinationQuizDatabaseManagerTests(unittest.TestCase):
+class TestDestinationQuizDatabaseManager(unittest.TestCase):
 
     def setUp(self):
         destination_quiz_database_manager.create_tables()

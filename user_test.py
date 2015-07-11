@@ -2,7 +2,7 @@ import unittest
 import users
 
 
-class UsersTests(unittest.TestCase):
+class TestUsers(unittest.TestCase):
 
     def test_create_seats_list_taken(self):
         seats = [[1, 0], [2, 1], [3, 0], [4, 0], [5, 1]]
